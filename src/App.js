@@ -1,9 +1,12 @@
 import "./App.css";
+import Footer from "./components/Footer/Footer";
+import Home from "./components/Home/Home";
 
 function App() {
   return (
     <div>
-      <h1 className="text-7xl text-red-800">Hello</h1>
+      <Home></Home>
+      <Footer></Footer>
     </div>
   );
 }
