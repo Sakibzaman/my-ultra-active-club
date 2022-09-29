@@ -5,7 +5,7 @@
     "age" : "15-30",
     "time": 30,
     "description": "Pullups train the upper back and biceps. If you only do pullups, you will develop a muscular imbalance." ,
-    "img": "https://l.facebook.com/l.php?u=https%3A%2F%2Fimg.freepik.com%2Ffree-photo%2Fconcept-power-strength-healthy-lifestyle-sport-powerful-attractive-muscular-man-gym_155003-4993.jpg%3Fw%3D690%26fbclid%3DIwAR2h2IZc91Tnd_g_wUB15e8o79gsfZs3NpFqH3Y3AYXKBZezPDyj1UBIIL4&h=AT0rZ9A5OEfnxJStmnoEL_pjMjjxSmwbnB9I_rq3elOZGB5BheePkI0Ob4XmQWkDEk-VMKbK-qi9juXQ1y4kHDlT4NOQCGaOWsO18Xtvl5g3L_UZDy_0acyN_ripECPzuKb4ew"
+    "img": "https://img.freepik.com/free-photo/concept-power-strength-healthy-lifestyle-sport-powerful-attractive-muscular-man-gym_155003-4993.jpg?w=690"
   },
   {
     "_id": "2",    
@@ -13,7 +13,7 @@
     "age" : "15-35",
     "time": 20,
     "description": "Weight lifting with dumbbells lowers your risk of heart attack, stroke, and cardiovascular disease." ,
-    "img": "https://l.facebook.com/l.php?u=https%3A%2F%2Fimg.freepik.com%2Ffree-photo%2Fmuscular-sportsman-building-biceps-with-dumbbell_7502-4784.jpg%3Fw%3D690%26fbclid%3DIwAR3imYjw8c0VZYc9Yqp2EGmsW6tUlaPwnTJU-O2P1lKCCmjN55RpQJQbCCg&h=AT0rZ9A5OEfnxJStmnoEL_pjMjjxSmwbnB9I_rq3elOZGB5BheePkI0Ob4XmQWkDEk-VMKbK-qi9juXQ1y4kHDlT4NOQCGaOWsO18Xtvl5g3L_UZDy_0acyN_ripECPzuKb4ew"
+    "img": "https://img.freepik.com/free-photo/muscular-sportsman-building-biceps-with-dumbbell_7502-4784.jpg?w=690"
   },
   {
     "_id": "3",    
@@ -21,7 +21,7 @@
     "age" : "15-35",
     "time": 40,
     "description": "Barbells are two-handed weight bars and are used for heavy lifts such as squats and deadlifts." ,
-    "img": "https://l.facebook.com/l.php?u=https%3A%2F%2Fimg.freepik.com%2Ffree-photo%2Fattractive-shirtless-man-cap-is-doing-lunge-with-barbell-dark-photo-studio_613910-14909.jpg%3Fw%3D690%26fbclid%3DIwAR135EcyLYugycEMyWsaiz-P2HaCe4SbV6DOj2AjlKf2-v6Hk99yYUMc-RI&h=AT0rZ9A5OEfnxJStmnoEL_pjMjjxSmwbnB9I_rq3elOZGB5BheePkI0Ob4XmQWkDEk-VMKbK-qi9juXQ1y4kHDlT4NOQCGaOWsO18Xtvl5g3L_UZDy_0acyN_ripECPzuKb4ew"
+    "img": "https://img.freepik.com/free-photo/attractive-shirtless-man-cap-is-doing-lunge-with-barbell-dark-photo-studio_613910-14909.jpg?w=690"
   },
   {
     "_id": "4",
@@ -29,7 +29,7 @@
     "age" : "20-40",
     "time": 30,
     "description": "One of the main benefits of resistance bands is that they provide variety.",
-    "img": "https://l.facebook.com/l.php?u=https%3A%2F%2Fimg.freepik.com%2Ffree-photo%2Fbodybuilder-training-arm-with-resistance-band_7502-4758.jpg%3Fw%3D690%26fbclid%3DIwAR0gOaHWL_oJid0zx2gyBffLqdHJG-N08JcooOod_8h3ymbRuvcCSO_StkA&h=AT0rZ9A5OEfnxJStmnoEL_pjMjjxSmwbnB9I_rq3elOZGB5BheePkI0Ob4XmQWkDEk-VMKbK-qi9juXQ1y4kHDlT4NOQCGaOWsO18Xtvl5g3L_UZDy_0acyN_ripECPzuKb4ew"
+    "img": "https://img.freepik.com/free-photo/bodybuilder-training-arm-with-resistance-band_7502-4758.jpg?w=690"
   },
   {
     "_id": "5",
@@ -37,7 +37,7 @@
     "age" : "20-40",
     "time": 40,
     "description": "Pushups are a fast and effective exercise for building strength.",
-    "img": "https://l.facebook.com/l.php?u=https%3A%2F%2Fimg.freepik.com%2Ffree-photo%2Fmuscular-man-doing-push-ups-one-hand_7502-4775.jpg%3Fw%3D690%26fbclid%3DIwAR0Le121g6rCeOfEkhpk5L0hKGVBRQFRqMb43JnzcQDnD1KLmL3jaZj-k4U&h=AT0rZ9A5OEfnxJStmnoEL_pjMjjxSmwbnB9I_rq3elOZGB5BheePkI0Ob4XmQWkDEk-VMKbK-qi9juXQ1y4kHDlT4NOQCGaOWsO18Xtvl5g3L_UZDy_0acyN_ripECPzuKb4ew"
+    "img": "https://img.freepik.com/free-photo/muscular-man-doing-push-ups-one-hand_7502-4775.jpg?w=690"
   },
   {
     "_id": "6",
@@ -45,6 +45,6 @@
     "age" : "15-30",
     "time": 30,
     "description": "One of the main benefits of resistance bands is You can do a full-body workout with them, they help to build muscle mass and tone.",
-    "img": "https://l.facebook.com/l.php?u=https%3A%2F%2Fimg.freepik.com%2Ffree-photo%2Fyoung-healthy-man-athlete-doing-exercise-with-ropes-gym-single-male-model-practicing-hard-training-his-upper-body-concept-healthy-lifestyle-sport-fitness-bodybuilding-wellbeing_155003-27879.jpg%3Fw%3D690%26fbclid%3DIwAR2wn2HlK5tQPpZ9tSOya0_F31URRNXFP12MKZslUW3IQGyqPLDsTKsHPpo&h=AT0rZ9A5OEfnxJStmnoEL_pjMjjxSmwbnB9I_rq3elOZGB5BheePkI0Ob4XmQWkDEk-VMKbK-qi9juXQ1y4kHDlT4NOQCGaOWsO18Xtvl5g3L_UZDy_0acyN_ripECPzuKb4ew"
+    "img": "https://img.freepik.com/free-photo/young-healthy-man-athlete-doing-exercise-with-ropes-gym-single-male-model-practicing-hard-training-his-upper-body-concept-healthy-lifestyle-sport-fitness-bodybuilding-wellbeing_155003-27879.jpg?w=690"
   }
 ]

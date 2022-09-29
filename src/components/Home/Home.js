@@ -13,11 +13,11 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
-      <Header></Header>
-      {cardDatas.map((cardData) => (
-        <ActivityCard key={cardData.id} cardData={cardData}></ActivityCard>
-      ))}
+    <div className="bg-transparent flex ">
+      <div className="w-3/4">
+        <Header></Header>
+        <Activities cardDatas={cardDatas}></Activities>
+      </div>
       <VerticalBar></VerticalBar>
     </div>
   );
