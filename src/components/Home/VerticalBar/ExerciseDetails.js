@@ -1,6 +1,6 @@
 import React from "react";
 
-const ExerciseDetails = () => {
+const ExerciseDetails = ({ breakTime }) => {
   return (
     <div>
       <h1 className="text-3xl font-semibold ">Exercise Details</h1>
@@ -8,8 +8,9 @@ const ExerciseDetails = () => {
         <div className="mt-5 p-4 text-xl rounded-2xl bg-gray-100">
           <h1>Exercise Time </h1>
         </div>
-        <div className="mt-5 p-4 text-xl rounded-2xl bg-gray-100">
-          <h1>Break Time</h1>
+        <div className="flex justify-between mt-5 p-4 text-xl rounded-2xl bg-gray-100">
+          <h1 className="pl-3 font-semibold ">Break Time</h1>
+          <r14 className="pr-4  ">{breakTime} seconds</r14>
         </div>
         <button className="bg-indigo-500 rounded-xl text-white w-full my-3 py-2">
           Activity Completed

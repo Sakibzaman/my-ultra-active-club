@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
 const ActivityCard = (props) => {
   console.log(props.cardData);
   const { name, img, age, time, description } = props.cardData;
+
+  const [isActive, setIsActive] = useState(false);
+  const handleClick = () => {
+    setIsActive(true);
+  };
+
   return (
     <div>
       <div className="m-5 p-3 bg-white rounded-3xl shadow-2xl">
@@ -19,8 +25,15 @@ const ActivityCard = (props) => {
         <h2 className="font-semibold px-3">
           Time Required: <span className="font-bold">{time}</span>
         </h2>
-        <button className="bg-indigo-500 rounded-lg text-white w-full py-2 px-36 mt-4 mb-3 ">
-          Add to list
+        <button
+          style={{
+            backgroundColor: isActive ? "forestgreen" : "",
+            color: isActive ? "white" : "",
+          }}
+          onClick={handleClick}
+          className="bg-indigo-500 rounded-lg text-white w-full py-2 px-3 mt-4 mb-3 "
+        >
+          {isActive ? "Added" : "Add to list"}
         </button>
       </div>
     </div>

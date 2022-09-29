@@ -1,6 +1,5 @@
 import React from "react";
 import BreakTime from "./BreakTime";
-import ExerciseDetails from "./ExerciseDetails";
 import UserInfo from "./UserInfo";
 
 const VerticalBar = () => {
@@ -9,7 +8,6 @@ const VerticalBar = () => {
       <div className="px-4">
         <UserInfo></UserInfo>
         <BreakTime></BreakTime>
-        <ExerciseDetails></ExerciseDetails>
       </div>
     </div>
   );

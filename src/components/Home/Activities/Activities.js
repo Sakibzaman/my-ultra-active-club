@@ -5,7 +5,7 @@ const Activities = ({ cardDatas }) => {
   console.log("card datas", cardDatas);
   return (
     <div>
-      <h3 className="">Select Today's Exercise</h3>
+      <h3 className="ml-5 my-5 font-bold text-xl">Select Today's Exercise</h3>
       <div className="grid grid-cols-3">
         {cardDatas.map((cardData) => (
           <ActivityCard key={cardData._id} cardData={cardData}></ActivityCard>

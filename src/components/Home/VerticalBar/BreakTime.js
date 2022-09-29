@@ -1,77 +1,69 @@
 import React, { useState } from "react";
+import ExerciseDetails from "./ExerciseDetails";
 
 const BreakTime = () => {
-  const btnDetails = [
-    { id: 1, value: 10 },
-    { id: 2, value: 20 },
-    { id: 3, value: 30 },
-    { id: 4, value: 40 },
-    { id: 5, value: 50 },
-  ];
+  const [breakTime, setBreakTime] = useState([]);
 
-  const [selected, setSelected] = useState(0);
-  //   const [state, setState] = useState(0);
-  const [bgColor, setBgColor] = useState({});
-  const handleBtnColor = (btnDetails) => {
-    setSelected(btnDetails.id);
-    setBgColor("indigo");
+  const [activeButton, setActiveButton] = useState("");
+  const handleClick = (e) => {
+    const { name } = e.target;
+    const btnValue = e.target.innerHTML;
+    const numBtnValue = parseInt(btnValue.slice(0, -1));
+    setBreakTime(numBtnValue);
+
+    setActiveButton(name);
   };
-
   return (
     <div>
       <h1 className="text-2xl capitalize ">Add A Break</h1>
       <div className="mt-5 p-4 grid font-semibold text-xl grid-cols-5  justify-items-center rounded-2xl bg-gray-100">
-        {btnDetails.map((detail) => (
-          <button
-            onClick={handleBtnColor}
-            className={` rounded-full p-3`}
-            key={detail.id}
-          >
-            {detail.value}
-          </button>
-        ))}
-
-        {/* <button
+        <button
+          name="1st"
           onClick={handleClick}
           className={`${
-            isActive === true ? "bg-indigo-600" : "bg-white"
+            activeButton === "1st" ? "bg-indigo-600 text-white" : "bg-white"
           } rounded-full p-2`}
         >
           10s
         </button>
         <button
+          name="2nd"
           onClick={handleClick}
           className={`${
-            isActive === true ? "bg-indigo-600" : "bg-white"
+            activeButton === "2nd" ? "bg-indigo-600 text-white" : "bg-white"
           } rounded-full p-2`}
         >
           20s
         </button>
         <button
+          name="3rd"
           onClick={handleClick}
           className={`${
-            isActive === true ? "bg-indigo-600" : "bg-white"
+            activeButton === "3rd" ? "bg-indigo-600 text-white" : "bg-white"
           } rounded-full p-2`}
         >
           30s
         </button>
         <button
+          name="4th"
           onClick={handleClick}
           className={`${
-            isActive === true ? "bg-indigo-600" : "bg-white"
+            activeButton === "4th" ? "bg-indigo-600 text-white" : "bg-white"
           } rounded-full p-2`}
         >
           40s
         </button>
         <button
+          name="5th"
           onClick={handleClick}
           className={`${
-            isActive === true ? "bg-indigo-600" : "bg-white"
+            activeButton === "5th" ? "bg-indigo-600 text-white" : "bg-white"
           } rounded-full p-2`}
         >
           50s
-        </button> */}
+        </button>
       </div>
+      <ExerciseDetails breakTime={breakTime}></ExerciseDetails>
     </div>
   );
 };
