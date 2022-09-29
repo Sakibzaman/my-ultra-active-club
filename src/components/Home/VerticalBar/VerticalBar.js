@@ -4,7 +4,7 @@ import UserInfo from "./UserInfo";
 
 const VerticalBar = (cardDatas) => {
   return (
-    <div className=" min-h-screen ">
+    <div className="min-h-screen ">
       <div className="px-4">
         <UserInfo></UserInfo>
         <BreakTime cardDatas={cardDatas}></BreakTime>

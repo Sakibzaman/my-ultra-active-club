@@ -15,7 +15,7 @@ const BreakTime = () => {
   };
   return (
     <div>
-      <h1 className="text-2xl capitalize ">Add A Break</h1>
+      <h1 className="text-2xl capitalize mt-5">Add A Break</h1>
       <div className="mt-5 p-4 grid font-semibold text-xl grid-cols-5  justify-items-center rounded-2xl bg-gray-100">
         <button
           name="1st"

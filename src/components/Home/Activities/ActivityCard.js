@@ -11,12 +11,8 @@ const ActivityCard = (props) => {
 
   return (
     <div>
-      <div className="m-5 p-3 bg-white rounded-3xl shadow-2xl">
-        <img
-          className="w-full max-h-44 rounded-3xl px-3 my-4"
-          src={img}
-          alt=""
-        />
+      <div className=" m-5 p-3 bg-white rounded-3xl shadow-2xl ">
+        <img className="max-h-44 rounded-3xl px-3 my-4" src={img} alt="" />
         <h2 className="font-bold px-3">{name}</h2>
         <p className="px-3 text-slate-600">{description}</p>
         <h2 className="font-semibold px-3">

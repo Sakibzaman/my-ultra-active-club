@@ -18,7 +18,7 @@ const Home = () => {
         <Header></Header>
         <Activities cardDatas={cardDatas}></Activities>
       </div>
-      <div className="w-1/4 border border-red-600 bg-white">
+      <div className="lg:w-1/4 border border-red-600 bg-white">
         <VerticalBar cardDatas={cardDatas}></VerticalBar>
       </div>
     </div>
