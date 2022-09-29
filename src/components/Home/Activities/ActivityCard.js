@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const ActivityCard = (props) => {
-  console.log(props.cardData);
+  // console.log(props.cardData);
   const { name, img, age, time, description } = props.cardData;
 
   const [isActive, setIsActive] = useState(false);

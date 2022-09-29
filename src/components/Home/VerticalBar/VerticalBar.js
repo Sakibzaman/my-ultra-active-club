@@ -2,12 +2,12 @@ import React from "react";
 import BreakTime from "./BreakTime";
 import UserInfo from "./UserInfo";
 
-const VerticalBar = () => {
+const VerticalBar = (cardDatas) => {
   return (
-    <div className=" min-h-screen">
+    <div className=" min-h-screen ">
       <div className="px-4">
         <UserInfo></UserInfo>
-        <BreakTime></BreakTime>
+        <BreakTime cardDatas={cardDatas}></BreakTime>
       </div>
     </div>
   );

@@ -13,13 +13,13 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="bg-transparent flex ">
+    <div className="bg-transparent lg:flex ">
       <div className="w-3/4">
         <Header></Header>
         <Activities cardDatas={cardDatas}></Activities>
       </div>
       <div className="w-1/4 border border-red-600 bg-white">
-        <VerticalBar></VerticalBar>
+        <VerticalBar cardDatas={cardDatas}></VerticalBar>
       </div>
     </div>
   );
