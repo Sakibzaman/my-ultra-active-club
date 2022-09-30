@@ -20,13 +20,13 @@ const Qna = () => {
               name="tabs"
             />
             <label
-              className="font-bold text-3xl text-indigo-500  block p-5 leading-normal cursor-pointer"
+              className="font-bold text-2xl text-indigo-500  block p-5 leading-normal cursor-pointer"
               htmlFor="tab-multi-one"
             >
               1.How React Works?
             </label>
             <div className="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
-              <p className="p-5 text-xl font-bold">
+              <p className="p-5 text-xl font-semibold">
                 {" "}
                 ReactJS divides the UI into isolated reusable pieces of code
                 known as components. React components work similarly to
@@ -51,13 +51,13 @@ const Qna = () => {
               name="tabs"
             />
             <label
-              className="  text-indigo-500  text-3xl font-bold block p-5 leading-normal cursor-pointer"
+              className="  text-indigo-500  text-2xl font-bold block p-5 leading-normal cursor-pointer"
               htmlFor="tab-multi-two"
             >
               2.Write the Differences Between Props and State in React.
             </label>
             <div className="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
-              <p className="p-5 text-xl font-bold">
+              <p className="p-5 text-xl font-semibold">
                 The state is a set of variables that determine the current
                 condition of the component. The state of a component is
                 internal, i.e., defined inside the component and changeable only
@@ -79,13 +79,13 @@ const Qna = () => {
               name="tabs"
             />
             <label
-              className="  text-3xl text-indigo-500 font-bold block p-5 leading-normal cursor-pointer"
+              className="  text-2xl text-indigo-500 font-bold block p-5 leading-normal cursor-pointer"
               htmlFor="tab-multi-three"
             >
               3.What does useEffect do other than loading data?{" "}
             </label>
             <div className="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
-              <p className="p-5 text-xl font-bold">
+              <p className="p-5 text-xl font-semibold">
                 By using this Hook, you tell React that your component needs to
                 do something after render. React will remember the function you
                 passed (we’ll refer to it as our “effect”), and call it later

@@ -14,7 +14,7 @@
 /* Label formatting when open */
 .tab input:checked + label {
   /*@apply text-xl p-5 border-l-2 border-indigo-500 bg-gray-100 text-indigo*/
-  font-size: 3.5rem;
+  font-size: 1.5rem;
   /*.text-xl*/
   padding: 1.25rem;
   /*.p-5*/
