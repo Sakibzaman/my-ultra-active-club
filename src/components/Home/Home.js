@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Activities from "./Activities/Activities";
-import ActivityCard from "./Activities/ActivityCard";
 import Header from "./Header/Header";
 import VerticalBar from "./VerticalBar/VerticalBar";
 
@@ -14,11 +13,11 @@ const Home = () => {
 
   return (
     <div className="bg-transparent lg:flex ">
-      <div className="w-3/4">
+      <div className="lg:w-3/4">
         <Header></Header>
         <Activities cardDatas={cardDatas}></Activities>
       </div>
-      <div className="lg:w-1/4 border border-red-600 bg-white">
+      <div className="lg:w-1/4 border bg-white">
         <VerticalBar cardDatas={cardDatas}></VerticalBar>
       </div>
     </div>

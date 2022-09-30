@@ -1,12 +1,24 @@
 import React, { useState } from "react";
+import RequiredTime from "../VerticalBar/RequiredTime";
 
 const ActivityCard = (props) => {
   // console.log(props.cardData);
+
+  // let totalRequiredTime = [];
+
   const { name, img, age, time, description } = props.cardData;
 
+  const [requiredTime, setRequiredTime] = useState([]);
   const [isActive, setIsActive] = useState(false);
   const handleClick = () => {
     setIsActive(true);
+
+    const totalRequiredTime = [...requiredTime, time];
+    setRequiredTime(totalRequiredTime);
+    // console.log("total required time array: ", totalRequiredTime, requiredTime);
+    let total = 0;
+
+    console.log({ totalRequiredTime });
   };
 
   return (

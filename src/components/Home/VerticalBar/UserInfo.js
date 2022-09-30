@@ -4,7 +4,7 @@ import locationLogo from "../../../resources/logo/location_logo.png";
 
 const UserInfo = () => {
   return (
-    <div>
+    <div className="">
       <div className="flex mt-8 lg:mx-4">
         <img
           className="mr-5 w-16 rounded-full"
