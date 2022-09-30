@@ -1,30 +1,18 @@
-import React, { useState } from "react";
-import RequiredTime from "../VerticalBar/RequiredTime";
+import React, { useEffect, useRef, useState } from "react";
 
-const ActivityCard = (props) => {
-  // console.log(props.cardData);
+const ActivityCard = ({ cardData, handleAddToList }) => {
+  const { name, img, age, time, description } = cardData;
 
-  // let totalRequiredTime = [];
-
-  const { name, img, age, time, description } = props.cardData;
-
-  const [requiredTime, setRequiredTime] = useState([]);
   const [isActive, setIsActive] = useState(false);
+
   const handleClick = () => {
     setIsActive(true);
-
-    const totalRequiredTime = [...requiredTime, time];
-    setRequiredTime(totalRequiredTime);
-    // console.log("total required time array: ", totalRequiredTime, requiredTime);
-    let total = 0;
-
-    console.log({ totalRequiredTime });
-  };
+  }
 
   return (
     <div>
       <div className=" m-5 p-3 bg-white rounded-3xl shadow-2xl ">
-        <img className="max-h-44 rounded-3xl px-3 my-4" src={img} alt="" />
+        <img className=" rounded-3xl px-3 my-4 mx-auto" src={img} alt="" />
         <h2 className="font-bold px-3">{name}</h2>
         <p className="px-3 text-slate-600">{description}</p>
         <h2 className="font-semibold px-3">
@@ -34,11 +22,12 @@ const ActivityCard = (props) => {
           Time Required: <span className="font-bold">{time}</span>
         </h2>
         <button
+
           style={{
-            backgroundColor: isActive ? "forestgreen" : "",
+            backgroundColor: isActive ? "#27ae60" : "",
             color: isActive ? "white" : "",
           }}
-          onClick={handleClick}
+          onClick={() => { handleClick(); handleAddToList(cardData); }}
           className="bg-indigo-500 rounded-lg text-white w-full py-2 px-3 mt-4 mb-3 "
         >
           {isActive ? "Added" : "Add to list"}

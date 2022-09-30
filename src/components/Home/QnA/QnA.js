@@ -3,9 +3,9 @@ import "./module.QnA.css";
 
 const Qna = () => {
   return (
-    <div>
+    <div className="bg-white mt-24  py-5 lg:py-20 rounded-2xl  ">
       <div>
-        <p className="text-indigo-500 font-bold text-3xl mb-8 mt-44 text-center">
+        <p className="text-indigo-500 font-bold text-3xl mb-8 text-center">
           {" "}
           QnA Section{" "}
           <span className="text-lg"> Click the "plus" icon below</span>{" "}

@@ -4,7 +4,7 @@ import locationLogo from "../../../resources/logo/location_logo.png";
 
 const UserInfo = () => {
   return (
-    <div className="">
+    <div>
       <div className="flex mt-8 lg:mx-4">
         <img
           className="mr-5 w-16 rounded-full"
@@ -37,6 +37,7 @@ const UserInfo = () => {
           <p className="text-slate-600 font-semibold">Age</p>
         </div>
       </div>
+      <h1 className="text-2xl capitalize mt-5">Add A Break</h1>
     </div>
   );
 };

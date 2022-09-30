@@ -1,49 +1,55 @@
 [
   {
-    "_id": "1",   
+    "id": "1",
     "name": "Pull Up",
-    "age" : "15-30",
+    "age": "15-30",
     "time": 30,
-    "description": "Pullups train the upper back and biceps. If you only do pullups, you will develop a muscular imbalance." ,
+    "quantity": 0,
+    "description": "Pullups train the upper back and biceps. If you only do pullups, you will develop a muscular imbalance.",
     "img": "https://img.freepik.com/free-photo/concept-power-strength-healthy-lifestyle-sport-powerful-attractive-muscular-man-gym_155003-4993.jpg?w=690"
   },
   {
-    "_id": "2",    
+    "id": "2",
     "name": "Dumbell",
-    "age" : "15-35",
+    "age": "15-35",
     "time": 20,
-    "description": "Weight lifting with dumbbells lowers your risk of heart attack, stroke, and cardiovascular disease." ,
+    "quantity": 0,
+    "description": "Weight lifting with dumbbells lowers your risk of heart attack, stroke, and cardiovascular disease.",
     "img": "https://img.freepik.com/free-photo/muscular-sportsman-building-biceps-with-dumbbell_7502-4784.jpg?w=690"
   },
   {
-    "_id": "3",    
+    "id": "3",
     "name": "Barbell",
-    "age" : "15-35",
+    "age": "15-35",
     "time": 40,
-    "description": "Barbells are two-handed weight bars and are used for heavy lifts such as squats and deadlifts." ,
+    "quantity": 0,
+    "description": "Barbells are two-handed weight bars and are used for heavy lifts such as squats and deadlifts.",
     "img": "https://img.freepik.com/free-photo/attractive-shirtless-man-cap-is-doing-lunge-with-barbell-dark-photo-studio_613910-14909.jpg?w=690"
   },
   {
-    "_id": "4",
+    "id": "4",
     "name": "Resistance Band",
-    "age" : "20-40",
+    "age": "20-40",
     "time": 30,
+    "quantity": 0,
     "description": "One of the main benefits of resistance bands is that they provide variety.",
     "img": "https://img.freepik.com/free-photo/bodybuilder-training-arm-with-resistance-band_7502-4758.jpg?w=690"
   },
   {
-    "_id": "5",
+    "id": "5",
     "name": "Push Ups",
-    "age" : "20-40",
+    "age": "20-40",
     "time": 40,
+    "quantity": 0,
     "description": "Pushups are a fast and effective exercise for building strength.",
     "img": "https://img.freepik.com/free-photo/muscular-man-doing-push-ups-one-hand_7502-4775.jpg?w=690"
   },
   {
-    "_id": "6",
+    "id": "6",
     "name": "Battle Ropes ",
-    "age" : "15-30",
+    "age": "15-30",
     "time": 30,
+    "quantity": 0,
     "description": "One of the main benefits of resistance bands is You can do a full-body workout with them, they help to build muscle mass and tone.",
     "img": "https://img.freepik.com/free-photo/young-healthy-man-athlete-doing-exercise-with-ropes-gym-single-male-model-practicing-hard-training-his-upper-body-concept-healthy-lifestyle-sport-fitness-bodybuilding-wellbeing_155003-27879.jpg?w=690"
   }
